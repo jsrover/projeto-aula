@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/style-padrao.css">
+    
+
+    <title>CWDRUMS</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="menu">
+            <ul class="ul-menu">
+                <a href="login.html"><li><i class="bi bi-file-earmark-person"></i></li></a>
+
+                <li id="imagem-localizacao">
+                    <i class="bi bi-geo"></i>
+                    <input id="cep" type="text" placeholder="Digite seu CEP">
+                    <p class="nome-localizacao"></p></li>
+                    <button onclick="consultaEndereco()">OK</button>
+
+                <li><i class="bi bi-card-image"> </i></li>
+    
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section
+         id="inicio">
+            <h1 id="nome-empresa">CWBDRUMS</h1>
+            <h2 class="mensagem">Salve Beatmaker
+            <h3 class="mensagem">Qual estilo de drum's deseja?</h3>
+            </h2>
+
+      </section>
+
+        <section id="input">
+            <i class="bi bi-search"></i>
+            <input id="input-text" type="text" placeholder="Pesquisar">
+        </section>
+
+
+        <section id="categorias">
+            <ul id="categoria-ul">
+                <a href="" class="categoria-a">
+                    <li class="categoria">BoomBap</li>
+                </a>
+                <a href="" class="categoria-a">
+                    <li class="categoria">Trap</li>
+                </a>
+                <a href="" class="categoria-a">
+                    <li class="categoria">DrumLess</li
+                        ></a>
+                <a href="" class="categoria-a">
+                    <li class="categoria">Lo-fi</li>
+                </a>
+                
+                
+            </ul>
+        </section> 
+
+        <section id="categoria-produto">
+            <div class="imagem-produto">
+                <a href=""><img src="./images/mpc 2.png" alt="">
+                <h3 class="nome-produto">Kit BoomBap</h3>
+                <p class="preco-produto">R$ 49,90</p></a>
+                
+                <a href=""><img src="./images/mpc 2.png" alt="">
+                <h3 class="nome-produto">Kit Trap</h3>
+                <p class="preco-produto">R$ 79,90</p></a>
+
+                <a href=""><img src="./images/OIP.jpg" alt="">
+                <h3 class="nome-produto">Kit Lofi</h3>
+                <p class="preco-produto">R$ 99,90</p></a>
+                
+            </div>
+
+            <div>
+                <a href="">Ver Mais>></a>
+            </div>
+        </section>
+        
+        <section id="avaliacao">
+            <p class="avaliacao-nome">Avalie nossos App</p>
+            <i class="bi bi-hand-thumbs-up"></i>
+            <i class="bi bi-hand-thumbs-down"></i>
+
+            <span>Sua avaliação pode gerar cupom</span>
+        </section>
+
+        <footer id="footer" class="footer">
+            <ul class="footer-card">
+                <a href="home.html"><li class="footer-item">
+                    <i class="bi bi-house"></i>
+                    <p class="footer-nome-item">Início</p></li>
+                </a>
+                <a href="cadastroUsuario.html"><li class="footer-item">
+                    <i class="bi bi-people"></i>
+                    <p class="footer-nome-item">Cadastro Usuario</p></li>
+                </a>
+                <a href="cadastroProduto.html"><li  class="footer-item">
+                    <i class="bi bi-upc-scan"></i>
+                    <p class="footer-nome-item">Cadastro de Produto</p></li>
+                </a>
+                <a href="carrinho.html"><li  class="footer-item">
+                    <i class="bi bi-cart"></i>
+                    <p class="footer-nome-item">Carrinho</p></li>
+                </a>
+                <a href="produto.html"><li  class="footer-item" class="footer-item">
+                    <i class="bi bi-stickies"></i>
+                    <p class="footer-nome-item">Produtos</p></li>
+                </a>
+            </ul>
+        </footer>
+     
+
+       </main>
+       <script src="./js/script-home.js"></script>
+    
+</body>
+</html>
